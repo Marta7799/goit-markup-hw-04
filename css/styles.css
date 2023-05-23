@@ -184,17 +184,28 @@ a {
   margin: 0 auto;
   margin-top: 30px;
 }
-.description {
+.strengths {
   padding-bottom: 0;
 }
-.description-list {
+.strengths-icons {
+  display: flex;
+  margin-bottom: 30px;
+  gap: 30px;
+}
+.strengths-icons-item {
+  width: 270px;
+  border-radius: 4px;
+  background: #f5f4fa;
+  padding: 25px 102.34px;
+}
+.strengths-list {
   display: flex;
   gap: 30px;
 }
-.description-item {
+.strengths-item {
   width: 270px;
 }
-.description-title {
+.strengths-title {
   font-size: 14px;
   font-weight: 700px;
   line-height: 1.14;
@@ -202,7 +213,7 @@ a {
   text-transform: uppercase;
   margin-bottom: 10px;
 }
-.description-text {
+.strengths-text {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -210,7 +221,7 @@ a {
   color: var(--other-text-color);
   width: 270px;
 }
-.description-text:not(:last-child) {
+.strengths-text:not(:last-child) {
   margin-right: 30px;
 }
 .doing-list {
@@ -272,7 +283,51 @@ a {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--other-text-color);
+  margin-left: auto;
+  margin-bottom: 16px;
 }
+.team-icons {
+  display: flex;
+  width: 206px;
+  margin-left: auto;
+}
+.team-icons-item {
+  width: 44px;
+  height: 44px;
+  gap: 10px;
+  cursor: pointer;
+  padding: 12px;
+}
+.clients {
+  width: 100%;
+  margin: 0 auto;
+  align-items: center;
+}
+.clients-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+}
+.clients-icon {
+  display: flex;
+  width: 1170px;
+  gap: 30px;
+  margin-left: auto;
+}
+.clients-icon-item {
+  width: 170px;
+  height: 92px;
+  gap: 30px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  cursor: pointer;
+  padding-top: 17.71px;
+  padding-left: 32px;
+}
+
 /* footer */
 .footer {
   background-color: var(--background-footer-color);
@@ -329,6 +384,31 @@ address-tel:focus {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--footer-text-color);
+}
+.footer-join-us {
+  margin-left: 70px;
+  width: 206px;
+}
+.join-us {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--secondary-text-color);
+  margin-bottom: 20px;
+}
+.footer-icons-list {
+  display: flex;
+  gap: 10px;
+}
+.footer-icons-item {
+  width: 44px;
+  height: 44px;
+  cursor: pointer;
+}
+.footer-wrap {
+  display: flex;
 }
 /* portfolio */
 .portfolio-list {
