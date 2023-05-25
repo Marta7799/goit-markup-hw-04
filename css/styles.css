@@ -135,6 +135,16 @@ a {
 .contact-tel:hover {
   color: var(--acent-color);
 }
+.envelope-icons {
+  margin-right: 10px;
+  vertical-align: middle;
+  fill: #757575;
+}
+.phone-icons {
+  margin-right: 10px;
+  vertical-align: middle;
+  fill: #757575;
+}
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -287,9 +297,9 @@ a {
   margin-bottom: 16px;
 }
 .team-icons {
-  display: flex;
   width: 206px;
-  margin-left: auto;
+  display: flex;
+  margin-left: 32px;
 }
 .team-icons-item {
   width: 44px;
@@ -297,6 +307,18 @@ a {
   gap: 10px;
   cursor: pointer;
   padding: 12px;
+  display: block;
+  margin: auto;
+  fill: #afb1b8;
+  border: 1px solid transparent;
+  background-color: transparent;
+  border-radius: 50%;
+}
+.team-icons-item:hover,
+.team-icons-item:focus {
+  fill: #ffffff;
+  border: 1px solid #2196f3;
+  background-color: #2196f3;
 }
 .clients {
   width: 100%;
@@ -317,10 +339,17 @@ a {
   gap: 30px;
   margin-left: auto;
 }
+.clients-icon-item:hover,
+.clients-icon-item:focus {
+  border: 1px solid #2196f3;
+  fill: #2196f3;
+}
+
 .clients-icon-item {
   width: 170px;
   height: 92px;
   gap: 30px;
+  fill: #afb1b8;
   border: 1px solid #afb1b8;
   border-radius: 4px;
   cursor: pointer;
@@ -341,6 +370,7 @@ a {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
+  margin-bottom: 20px;
 }
 .logo {
   color: var(--acent-color);
@@ -401,11 +431,14 @@ address-tel:focus {
 .footer-icons-list {
   display: flex;
   gap: 10px;
+  margin-left: 70px;
 }
 .footer-icons-item {
   width: 44px;
   height: 44px;
   cursor: pointer;
+  display: block;
+  margin: auto;
 }
 .footer-wrap {
   display: flex;
