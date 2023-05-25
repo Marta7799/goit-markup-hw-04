@@ -130,10 +130,12 @@ a {
 .contact-mail:hover,
 .contact-mail:focus {
   color: var(--acent-color);
+  fill: var(--acent-color)
 }
 .contact-tel:focus,
 .contact-tel:hover {
   color: var(--acent-color);
+  fill: var(--acent-color)
 }
 .envelope-icons {
   margin-right: 10px;
