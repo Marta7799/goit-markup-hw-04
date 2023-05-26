@@ -327,6 +327,7 @@ border-radius: 0px 0px 4px 4px;
   width: 100%;
   margin: 0 auto;
   align-items: center;
+  display: flex;
 }
 .clients-title {
   font-weight: 700;
@@ -340,26 +341,24 @@ border-radius: 0px 0px 4px 4px;
   display: flex;
   width: 1170px;
   gap: 30px;
-  color: var(--icon-color);
+}
+.clients-link {
   
 }
-.clients-links {
+.clients-icon-item {
   width: 170px;
   height: 92px;
   display: flex;
-  align-items:center;
-  justify-content: center;
-}
-.clients-icon-item {
-  display: flex;
   justify-content: center;
   align-items: center;
+  color: var(--icon-color);
   fill:currentColor;
 border: 1px solid currentColor;
   border-radius: 4px;
+
 }
-.clients-links:hover,
-.clients-links:focus {
+.clients-icon-item:hover
+.clients-icon-item:focus {
   color: var(--acent-color);
 }
 
@@ -502,7 +501,7 @@ border-radius: 4px;
 }
 .portfolio-link {
   display: block;
-  
+
 }
 .border-portfolio {
   border: 1px solid #eeeeee;
