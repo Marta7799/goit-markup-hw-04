@@ -343,7 +343,7 @@ border-radius: 0px 0px 4px 4px;
   gap: 30px;
 }
 .clients-link {
-  
+fill:currentColor;
 }
 .clients-icon-item {
   width: 170px;
@@ -352,14 +352,14 @@ border-radius: 0px 0px 4px 4px;
   justify-content: center;
   align-items: center;
   color: var(--icon-color);
-  fill:currentColor;
 border: 1px solid currentColor;
   border-radius: 4px;
 
 }
-.clients-icon-item:hover
-.clients-icon-item:focus {
-  color: var(--acent-color);
+.clients-logo:hover
+.clients-logo:focus {
+  fill: var(--acent-color);
+  border: var(--acent-color)
 }
 
 /* footer */
