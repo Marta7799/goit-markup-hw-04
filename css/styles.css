@@ -423,6 +423,7 @@ address-tel:focus {
 }
 .footer-join-us {
   margin-left: 70px;
+  
 }
 .join-us {
   font-weight: 700;
@@ -432,6 +433,7 @@ address-tel:focus {
   text-transform: uppercase;
   color: var(--secondary-text-color);
   margin-bottom: 20px;
+  align-items: baseline;
 }
 .footer-icons-list {
   display: flex;
@@ -497,6 +499,10 @@ border-radius: 4px;
 }
 .portfolio-img-item:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+.portfolio-link {
+  display: block;
+  
 }
 .border-portfolio {
   border: 1px solid #eeeeee;
