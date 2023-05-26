@@ -340,7 +340,6 @@ border-radius: 0px 0px 4px 4px;
   display: flex;
   width: 1170px;
   gap: 30px;
-  margin-left: auto;
   color: var(--icon-color);
   
 }
@@ -350,10 +349,11 @@ border-radius: 0px 0px 4px 4px;
   display: flex;
   align-items:center;
   justify-content: center;
-  
-  margin:auto;
 }
 .clients-icon-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   fill:currentColor;
 border: 1px solid currentColor;
   border-radius: 4px;
