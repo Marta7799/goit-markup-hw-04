@@ -342,7 +342,7 @@ border-radius: 0px 0px 4px 4px;
   width: 1170px;
   gap: 30px;
 }
-.clients-link {
+.clients-logo {
 fill:currentColor;
 }
 .clients-icon-item {
@@ -356,8 +356,8 @@ border: 1px solid currentColor;
   border-radius: 4px;
 
 }
-.clients-logo:hover
-.clients-logo:focus {
+.clients-icon-item:hover
+.clients-icon-item:focus {
   fill: var(--acent-color);
   border: var(--acent-color)
 }
